@@ -1,152 +1,94 @@
 # 🧠 Focus4Good
 
-### An iOS productivity & wellness app designed to support students with ADHD
+### ADHD Support & Productivity iOS Application
 
-<p align="center">
-
-Focus4Good helps students with ADHD manage tasks, improve focus, regulate stress, track progress, and build positive habits through an engaging and supportive mobile experience.
-
-</p>
+Focus4Good is an iOS application designed to help people with ADHD manage tasks, improve focus, regulate stress, track progress, and build positive habits through a supportive and engaging experience.
 
 ---
 
-## 📱 About the Project
+## ✨ Features
 
-Focus4Good is an iOS application designed specifically with students with ADHD in mind.
+### 🏠 Home
+- 📋 Planner for managing tasks and focus sessions
+- 🤝 NGO Connect for social-impact activities
 
-The application combines **productivity, mental wellness, gamification, and community support** into one experience.
-
-Instead of focusing only on task management, Focus4Good aims to reduce the friction that students with ADHD can experience when starting tasks, maintaining focus, or dealing with overwhelming thoughts.
-
----
-
-## ✨ Key Features
-
-### 🧠 Calm
-
-A dedicated space designed to help users relax and regulate their emotions.
-
+### 🧘 Calm
+A dedicated space for relaxation and focus:
 - 📝 Brain Dump
-- 🌬️ 4-7-8 Breathing Exercise
+- 🌬️ 4-7-8 Breathing
 - 💪 Progressive Muscle Relaxation
-- 🎧 ASMR / calming audio
-- 🧘 Guided relaxation experiences
+- 🎧 ASMR
+- 🎯 Deep Focus
 
----
-
-### 📋 Planner
-
-A productivity system designed to make tasks easier to start and complete.
-
-- ⏱️ Focus sessions
-- 🍅 Pomodoro-based productivity
-- 📌 Task management
-- 🎯 Focus-oriented workflows
-- 🏆 Reward-based motivation
-
----
-
-### 📊 Progress Tracker
-
-Helps users understand and visualize their progress.
-
-- 📅 Daily progress
-- 📈 Monthly progress
-- 🔥 Streak tracking
+### 📊 Progress
+- 📅 Weekly progress tracking
+- 📆 Monthly progress tracking
+- 🔥 Streaks and achievements
 - 🪙 Points and rewards
-- 🏅 Achievement badges
+
+### 🤝 Community
+A space for users to connect and engage with the community.
 
 ---
 
-### 🤝 Community & NGO Connect
+## 🛠️ Tech Stack
 
-Focus4Good also introduces a social-impact component where users can connect their productivity journey with meaningful causes.
-
-Users can earn rewards while participating in activities that encourage positive social impact.
+**Swift • SwiftUI • Supabase • AVFoundation • PencilKit • Figma • Xcode**
 
 ---
 
-## 🎯 Problem We Wanted to Solve
+## 👩‍💻 My Contribution
 
-Students with ADHD can struggle with:
-
-- Difficulty starting tasks
-- Maintaining focus
-- Managing overwhelming thoughts
-- Building consistent routines
-- Staying motivated
-- Managing stress
-
-Focus4Good brings these experiences together into one application instead of requiring users to switch between multiple productivity and wellness tools.
+- Developed the **Calm Tab** using SwiftUI
+- Built interactive calming experiences
+- Integrated **AVFoundation** for audio-based experiences
+- Used **PencilKit** for drawing-based interactions
+- Worked with **Supabase** backend functionality
+- Collaborated with the development team across application modules
 
 ---
 
-# 🛠️ Tech Stack
-
-### 📱 iOS Development
-
-- Swift
-- SwiftUI
-- UIKit
-
-### 🔊 Apple Frameworks
-
-- AVFoundation
-- PencilKit
-
-### ☁️ Backend
-
-- Supabase
-
-### 🎨 Design
-
-- Figma
-- Apple Human Interface Guidelines
-
-### 🔧 Development Tools
-
-- Xcode
-- Git
-- GitHub
-
----
-
-# 👩‍💻 My Contribution
-
-I contributed to the development of Focus4Good with a primary focus on the **Calm experience**.
-
-### My responsibilities included:
-
-- Developed the Calm Tab using SwiftUI
-- Created interactive calming experiences
-- Implemented audio-based experiences using AVFoundation
-- Integrated drawing-based interactions using PencilKit
-- Worked with Supabase backend functionality
-- Collaborated with the development team across different application modules
-- Focused on creating an accessible and user-friendly experience
-
----
-
-# 🏗️ Application Structure
+## 🏗️ Application Structure
 
 ```text
 Focus4Good
 │
 ├── 🏠 Home
+│   ├── 📋 Planner
+│   └── 🤝 NGO Connect
 │
 ├── 🧘 Calm
-│   ├── Brain Dump
-│   ├── 4-7-8 Breathing
-│   ├── Progressive Muscle Relaxation
-│   ├── ASMR
-│   └── Deep Focus
+│   ├── 📝 Brain Dump
+│   ├── 🌬️ 4-7-8 Breathing
+│   ├── 💪 Progressive Muscle Relaxation
+│   ├── 🎧 ASMR
+│   └── 🎯 Deep Focus
 │
-├── 📚 Learn
-│
-├── 📊 Tracker
-│   ├── Daily Progress
-│   ├── Monthly Progress
-│   └── Achievements
+├── 📊 Progress
+│   ├── 📅 Weekly Progress
+│   └── 📆 Monthly Progress
 │
 └── 🤝 Community
-    └── NGO Connect
+
+🚀 Getting Started
+Requirements
+- macOS
+- Xcode
+- iOS Simulator or compatible iPhone
+Installation
+git clone https://github.com/shreyasingh100/Focus4Good.git
+
+Open the project in Xcode and run it on an iOS Simulator or connected device.
+Configure the required Supabase credentials before running the application. Never commit API keys or other sensitive credentials.
+
+📈 Project Status
+🚧 Active Development
+Focus4Good has been published through TestFlight as part of its development and testing process.
+👩‍💻 Developer
+Shreya Singh
+GitHub • LinkedIn • singhshreya0422@gmail.com
+<p align="center">
+
+🧠 Build with purpose. Focus with intention. Do good.
+</p>
+```
