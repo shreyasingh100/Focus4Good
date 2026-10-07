@@ -9,11 +9,14 @@ Focus4Good is an iOS application designed to help people with ADHD manage tasks,
 ## ✨ Features
 
 ### 🏠 Home
+
 - 📋 Planner for managing tasks and focus sessions
 - 🤝 NGO Connect for social-impact activities
 
 ### 🧘 Calm
+
 A dedicated space for relaxation and focus:
+
 - 📝 Brain Dump
 - 🌬️ 4-7-8 Breathing
 - 💪 Progressive Muscle Relaxation
@@ -21,12 +24,14 @@ A dedicated space for relaxation and focus:
 - 🎯 Deep Focus
 
 ### 📊 Progress
+
 - 📅 Weekly progress tracking
 - 📆 Monthly progress tracking
 - 🔥 Streaks and achievements
 - 🪙 Points and rewards
 
 ### 🤝 Community
+
 A space for users to connect and engage with the community.
 
 ---
@@ -69,26 +74,48 @@ Focus4Good
 │   └── 📆 Monthly Progress
 │
 └── 🤝 Community
+```
 
-🚀 Getting Started
-Requirements
+---
+
+## 🚀 Getting Started
+
+### Requirements
+
 - macOS
 - Xcode
 - iOS Simulator or compatible iPhone
-Installation
+
+### Installation
+
+Clone the repository:
+
+```bash
 git clone https://github.com/shreyasingh100/Focus4Good.git
+```
 
 Open the project in Xcode and run it on an iOS Simulator or connected device.
-Configure the required Supabase credentials before running the application. Never commit API keys or other sensitive credentials.
 
-📈 Project Status
-🚧 Active Development
-Focus4Good has been published through TestFlight as part of its development and testing process.
-👩‍💻 Developer
-Shreya Singh
-GitHub • LinkedIn • singhshreya0422@gmail.com
-<p align="center">
+> **Note:** Configure the required Supabase credentials before running the application. Never commit API keys or other sensitive credentials.
 
-🧠 Build with purpose. Focus with intention. Do good.
-</p>
-```
+---
+
+## 📈 Project Status
+
+🚧 **Active Development**
+
+Focus4Good has been published through **TestFlight** as part of its development and testing process.
+
+---
+
+## 👩‍💻 Developer
+
+**Shreya Singh**
+
+- 💻 [GitHub](https://github.com/shreyasingh100)
+- 💼 [LinkedIn](https://www.linkedin.com/in/shreya-singh-s123/)
+- 📧 singhshreya0422@gmail.com
+
+---
+
+### 🧠 Build with purpose. Focus with intention. Do good.
