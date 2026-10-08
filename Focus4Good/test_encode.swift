@@ -14,12 +14,14 @@ struct Dummy: Codable {
     }
 }
 
-let d1 = Dummy(endDate: nil)
-let d2 = Dummy(endDate: Date())
+func runTestEncode() {
+    let d1 = Dummy(endDate: nil)
+    let d2 = Dummy(endDate: Date())
 
-let enc = JSONEncoder()
-enc.outputFormatting = .prettyPrinted
+    let enc = JSONEncoder()
+    enc.outputFormatting = .prettyPrinted
 
-print(String(data: try! enc.encode(d1), encoding: .utf8)!)
-print("---")
-print(String(data: try! enc.encode(d2), encoding: .utf8)!)
+    print(String(data: try! enc.encode(d1), encoding: .utf8)!)
+    print("---")
+    print(String(data: try! enc.encode(d2), encoding: .utf8)!)
+}

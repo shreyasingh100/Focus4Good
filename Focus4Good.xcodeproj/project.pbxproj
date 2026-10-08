@@ -11,12 +11,101 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		355E6C2C30765D6B000A8CF4 /* Focus4Good.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Focus4Good.xcodeproj; sourceTree = "<group>"; };
 		5D6225772F6C8B5A00F7DAD1 /* Focus4Good.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focus4Good.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		355E6D8B30765FDC000A8CF4 /* Exceptions for "Focus4Good" folder in "Focus4Good" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Focus4GoodApp.swift,
+				Helper/AppTheme.swift,
+				Helper/QRCodeGenerator.swift,
+				Helper/SpeechRecognizer.swift,
+				Helper/SupabaseDateCoding.swift,
+				Models/ASMRData.swift,
+				Models/CalmCentre.swift,
+				Models/Community.swift,
+				Models/FocusSession.swift,
+				Models/Task.swift,
+				Models/User.swift,
+				Models/Volunteer.swift,
+				Resources/ASMRSounds/keyboard_typing_asmr.mp3,
+				Resources/ASMRSounds/nature_and_calm.mp3,
+				Resources/ASMRSounds/soft_rain_asmr.mp3,
+				Resources/ASMRSounds/white_noise.mp3,
+				Services/ASMRAudioService.swift,
+				Services/BreatheAudioService.swift,
+				Services/JPMRAudioService.swift,
+				Services/MeditationAudioService.swift,
+				Stores/CalmCentreStore.swift,
+				Stores/CommunityStore.swift,
+				Stores/NotificationManager.swift,
+				Stores/ProgressStore.swift,
+				Stores/TaskStore.swift,
+				Stores/UserStore.swift,
+				Stores/VolunteerStore.swift,
+				Supabase/SupabaseConfig.swift,
+				Supabase/SupabaseManager.swift,
+				Views/Calm/ASMR/ASMRMiniPlayerView.swift,
+				Views/Calm/ASMR/ASMRPlayerView.swift,
+				Views/Calm/ASMR/ASMRPlaylistDetailView.swift,
+				Views/Calm/ASMR/SensorySootheView.swift,
+				Views/Calm/Braindump/BraindumpCanvasView.swift,
+				Views/Calm/Braindump/BraindumpDetailView.swift,
+				Views/Calm/Braindump/BraindumpEditorView.swift,
+				Views/Calm/Braindump/BraindumpEntriesView.swift,
+				Views/Calm/Braindump/BraindumpFoldersView.swift,
+				Views/Calm/Braindump/BraindumpHomeView.swift,
+				Views/Calm/Braindump/BraindumpPasswordView.swift,
+				Views/Calm/Braindump/BraindumpSavedView.swift,
+				Views/Calm/Braindump/BraindumpWriteView.swift,
+				Views/Calm/Breathe/BreatheSessionView.swift,
+				Views/Calm/CalmCentreView.swift,
+				Views/Calm/DeepFocus/DeepFocusBrowseView.swift,
+				Views/Calm/JPMR/JPMRSessionView.swift,
+				Views/Calm/JPMR/JPMRVideoView.swift,
+				Views/Community/AddCommunityView.swift,
+				Views/Community/AddPostView.swift,
+				Views/Community/CommunityHome.swift,
+				Views/Community/CommunityMembersSheet.swift,
+				Views/Community/CommunityPostRowView.swift,
+				Views/Community/CommunityPostsSheet.swift,
+				Views/Community/CommunityRowView.swift,
+				Views/Community/TransferOwnershipSheet.swift,
+				Views/Home/AddTaskSheet.swift,
+				Views/Home/AuthView.swift,
+				Views/Home/BadgesView.swift,
+				Views/Home/DonatePointsView.swift,
+				Views/Home/DummyData.swift,
+				Views/Home/ForgotPasswordView.swift,
+				Views/Home/HomeView.swift,
+				Views/Home/NGOListView.swift,
+				Views/Home/OnboardingView.swift,
+				Views/Home/PomodoroView.swift,
+				Views/Home/PrivacyViews.swift,
+				Views/Home/ProfileView.swift,
+				Views/Home/RescueMeView.swift,
+				Views/Home/ScannedTasksReviewView.swift,
+				Views/Home/ScanNotesView.swift,
+				Views/Home/ScheduleView.swift,
+				Views/Home/SplashView.swift,
+				Views/Home/TwoFactorVerifyView.swift,
+				Views/Progress/ProgressDetailSheets.swift,
+				Views/Progress/ProgressTrackerView.swift,
+			);
+			target = 5D6225762F6C8B5A00F7DAD1 /* Focus4Good */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5D6225792F6C8B5A00F7DAD1 /* Focus4Good */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				355E6D8B30765FDC000A8CF4 /* Exceptions for "Focus4Good" folder in "Focus4Good" target */,
+			);
 			path = Focus4Good;
 			sourceTree = "<group>";
 		};
@@ -34,6 +123,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355E6C3330765D6B000A8CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5D3E20F52F9BBD9D00936CFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +210,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5D6225782F6C8B5A00F7DAD1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 355E6C3330765D6B000A8CF4 /* Products */;
+					ProjectRef = 355E6C2C30765D6B000A8CF4 /* Focus4Good.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5D6225762F6C8B5A00F7DAD1 /* Focus4Good */,
